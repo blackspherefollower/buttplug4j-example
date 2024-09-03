@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group = 'io.github.blackspherefollower'
+version = '3.1.105'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.github.blackspherefollower:buttplug4j.connectors.jetty.websocket.client:3.1.105'
+}
+
+test {
+    useJUnitPlatform()
+}
